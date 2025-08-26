@@ -28,11 +28,12 @@ ghost-roles-window-leave-raffle-button =
          [one] {$players} gracz
         *[other] {$players} graczy
     })
-ghost-roles-window-request-role-button = Request
-ghost-roles-window-request-role-button-timer = Request ({$time}s)
+ghost-roles-window-request-role-button = Przejmij
+ghost-roles-window-request-role-button-timer = Przejmij ({$time}s)
+# nie mam pomyslu zbyt bardzo jakby to nazwac inaczej ^
 ghost-roles-window-follow-role-button = Śledź
-ghost-roles-window-no-roles-available-label = There are currently no available ghost roles.
-ghost-roles-window-rules-footer = The button will enable after {$time} seconds (this delay is to make sure you read the rules).
+ghost-roles-window-no-roles-available-label = Brak dostępnych ról ducha.
+ghost-roles-window-rules-footer = Przycisk zostanie odblokowany za {$time} sekund (opóźnienie istnieje, aby upewnić się że zasady zostały przeczytane).
 
 ghost-return-to-body-title = Powróć do ciała
 ghost-return-to-body-text = Twoja postać jest wskrzeszana! Czy chcesz powrócić do jej ciała?
