@@ -1084,6 +1084,9 @@ public sealed partial class ChatSystem : SharedChatSystem
     [ValidatePrototypeId<ReplacementAccentPrototype>]
     public const string ChatSanitize_Accent = "chatsanitize";
 
+    [ValidatePrototypeId<ReplacementAccentPrototype>]
+    public const string ChatSanitize_Polish = "chatsanitize-pl"; // Polonium
+
     public string SanitizeMessageReplaceWords(string message)
     {
         if (string.IsNullOrEmpty(message))
@@ -1092,6 +1095,8 @@ public sealed partial class ChatSystem : SharedChatSystem
         var msg = message;
 
         msg = _wordreplacement.ApplyReplacements(msg, ChatSanitize_Accent);
+
+        msg = _wordreplacement.ApplyReplacements(msg, ChatSanitize_Polish); // Polonium
 
         return msg;
     }
