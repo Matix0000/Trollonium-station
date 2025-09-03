@@ -32,7 +32,7 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add Resources/Credits/SS14PL.txt
-          git commit -m "Update Credits" || echo "No changes to commit"
+          git commit -m "Zaktualizowano listę kontrybutorów" || echo "No changes to commit"
           git push https://x-access-token:${{ secrets.G_PAT }}@github.com/${{ github.repository }}.git HEAD:master
 
 # Based on space-wizards/space-station-14/.github/workflows/update-credits.yml
