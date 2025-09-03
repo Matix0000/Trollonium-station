@@ -1,0 +1,37 @@
+name: Update Contrib in credits
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: 0 0 * * 0
+
+jobs:
+  get_credits:
+    runs-on: ubuntu-latest
+
+    # Jeśli sforkowałeś repozytorium, nie zapomnij zmienić tego warunku
+    if: github.repository == 'polonium14/polonium-station'
+
+    steps:
+      - uses: actions/checkout@v4.2.2
+        with:
+          ref: master
+
+      - name: Get this week's Contributors
+        shell: pwsh
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        run: Tools/dump_ss14pl_contrib.ps1 > Resources/Credits/SS14PL.txt
+
+      # TODO
+      #- name: Get this week's Patreons
+      #  run: Tools/script2dumppatreons > Resources/Credits/Patrons.yml
+
+      - name: Commit new credit files
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update Credits
+          commit_author: GitHub Actions <github-actions[bot]@users.noreply.github.com>
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+# Based on space-wizards/space-station-14/.github/workflows/update-credits.yml
