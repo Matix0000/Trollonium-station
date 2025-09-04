@@ -1,38 +1,44 @@
-name: Update Contrib in credits
+name: Add contributor to credits
 
 on:
-  workflow_dispatch:
-  schedule:
-    - cron: 0 0 * * 0
+  pull_request:
+    types:
+      - closed
 
 jobs:
-  get_credits:
+  add-contributor:
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
 
-    # Jeśli sforkowałeś repozytorium, nie zapomnij zmienić tego warunku
-    if: github.repository == 'polonium14/polonium-station'
-
     steps:
-      - uses: actions/checkout@v4.2.2
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          ref: master
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Get this week's Contributors
-        shell: pwsh
-        env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-        run: Tools/dump_ss14pl_contrib.ps1 > Resources/Credits/SS14PL.txt
-
-      # TODO
-      #- name: Get this week's Patreons
-      #  run: Tools/script2dumppatreons > Resources/Credits/Patrons.yml
-
-      - name: Commit new credit files
+      - name: Add contributor to credits
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add Resources/Credits/SS14PL.txt
-          git commit -m "Zaktualizowano listę kontrybutorów" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:master
+          AUTHOR="${{ github.event.pull_request.user.login }}"
+          FILE="Resources/Credits/SS14PL.txt"
 
-# Based on space-wizards/space-station-14/.github/workflows/update-credits.yml
+          touch "$FILE"
+
+          CONTENT=$(cat "$FILE" | tr -d '\n' | tr -d '\r')
+
+          if echo "$CONTENT" | grep -qw "$AUTHOR"; then
+            echo "Author already in credits"
+          else
+            if [ -z "$CONTENT" ]; then
+              echo -n "$AUTHOR" > "$FILE"
+            else
+              echo -n "$CONTENT,$AUTHOR" > "$FILE"
+            fi
+          fi
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Resources/Credits/SS14PL.txt
+          git commit -m "chore: add ${{ github.event.pull_request.user.login }} to credits" || echo "No changes"
+          git push
