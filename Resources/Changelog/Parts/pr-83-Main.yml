@@ -1,0 +1,13 @@
+author: "Nikitosych"
+time: "2025-10-09T21:58:32.0000000+00:00"
+url: "https://github.com/polonium14/polonium-station/pull/83"
+changes:
+- &1404037713 type: "Add"
+  &1644388693 message: "Zsynchronizowano repozytorium z najnowszym upstreamem (22 wrz. 2025): wprowadzono liczne nowe funkcje, elementy map i nową zawartość"
+- type: "Remove"
+  message: "Usunięto przestarzałe lub zduplikowane zasoby i mechaniki zgodnie ze zmianami w upstreamie"
+- type: "Tweak"
+  message: "Ujednolicono balans, konfiguracje i interfejsy; wprowadzono wiele poprawek jakości życia"
+- type: "Fix"
+  message: "Dołączono liczne poprawki błędów z upstreamu"
+...
