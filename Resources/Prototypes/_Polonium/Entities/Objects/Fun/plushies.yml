@@ -42,7 +42,8 @@
   - type: Sprite
     sprite: _Polonium/Objects/Fun/Plushies/ItanKio-Plush.rsi
     state: icon
-  - type: OnUseTimerTrigger
+  - type: TriggerOnUse
+  - type: TimerTrigger
     delay: 5
     beepInterval: 1
     beepSound:
