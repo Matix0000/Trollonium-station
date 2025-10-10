@@ -4080,3 +4080,18 @@ Entries:
   id: 9012
   time: '2025-10-10T15:15:55.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/85
+- author: Tofi_Dev
+  changes:
+  - message: "Przet\u0142umaczono kilka nowych element\xF3w interfejsu ( np. elementy\
+      \ zwi\u0105zane z ka\u0142u\u017Cami, rozlewaniem p\u0142yn\xF3w, itp. )"
+    type: Add
+  id: 9013
+  time: '2025-10-10T15:24:53.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/82
+- author: qazmlp, Nikitosych
+  changes:
+  - message: Nowa kompaktowa mapa do gry!
+    type: Add
+  id: 9014
+  time: '2025-10-10T15:23:12.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/84
