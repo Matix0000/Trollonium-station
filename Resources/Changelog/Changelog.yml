@@ -4110,3 +4110,11 @@ Entries:
   id: 9016
   time: '2025-10-20T05:49:09.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/90
+- author: Tofi-Dev
+  changes:
+  - message: "Przet\u0142umaczono stan na ziemi, stan poza zasi\u0119giem w analizatorze\
+      \ zdrowia, i elementy wizualne papierologii ( Cargo, Nanotask, etc. )"
+    type: Add
+  id: 9017
+  time: '2025-10-20T05:53:41.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/91
