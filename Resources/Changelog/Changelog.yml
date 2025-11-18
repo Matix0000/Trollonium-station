@@ -1,19 +1,4 @@
 ﻿Entries:
-- author: Golinth
-  changes:
-  - message: AMEs larger than 2 cores now produce more power, instead of less.
-    type: Tweak
-  id: 7725
-  time: '2024-12-17T23:56:03.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/32825
-- author: ArtisticRoomba, AugustSun
-  changes:
-  - message: New Advanced SMES, an SMES with a 16 MJ capacity. It can be researched
-      at Industrial T2, Advanced Powercells.
-    type: Add
-  id: 7726
-  time: '2024-12-17T23:58:54.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33757
 - author: Allen, lzk228
   changes:
   - message: Made Gun Safes a craftable object (10 steel, 5 lv cable, 10 plasteel)
@@ -3927,3 +3912,19 @@
   id: 9032
   time: '2025-11-15T16:32:38.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/98
+- author: Lukasz825700516
+  changes:
+  - message: "t\u0142umaczenie zada\u0144 smoka"
+    type: Add
+  - message: "t\u0142umaczenie karpio wyrwy"
+    type: Add
+  id: 9033
+  time: '2025-11-18T22:06:31.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/297
+- author: Lukasz825700516
+  changes:
+  - message: "t\u0142umaczenie informacji o drzwiach i \u015Bluzach"
+    type: Add
+  id: 9034
+  time: '2025-11-18T22:19:05.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/118
