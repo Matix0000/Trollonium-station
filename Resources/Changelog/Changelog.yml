@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Errant
-  changes:
-  - message: Removed seasonal nuke song "Nukemass".
-    type: Remove
-  id: 7773
-  time: '2025-01-01T16:27:50.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34066
 - author: Alpaccalypse
   changes:
   - message: '"Irish Car Bomb" renamed to "Irish Slammer".'
@@ -3949,3 +3942,12 @@
   id: 9080
   time: '2025-12-12T19:35:13.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/344
+- author: Nikitapl
+  changes:
+  - message: "Dodano polskie t\u0142umaczenie dla \u0142ampek \u015Bwi\u0105tecznych"
+    type: Add
+  - message: "Przet\u0142umaczono wszystkie gatunki i rasy"
+    type: Add
+  id: 9081
+  time: '2025-12-13T17:59:36.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/343
