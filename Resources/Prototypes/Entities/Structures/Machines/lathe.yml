@@ -164,8 +164,10 @@
 # SPDX-FileCopyrightText: 2025 Mish <bluscout78@yahoo.com>
 # SPDX-FileCopyrightText: 2025 Mora <46364955+TrixxedHeart@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Nemanja <98561806+EmoGarbage404@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Nikita (Nick) <174215049+nikitosych@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Nox <nebulousnox38@gmail.com>
 # SPDX-FileCopyrightText: 2025 OnyxTheBrave <131422822+OnyxTheBrave@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Polonium-bot <admin@ss14.pl>
 # SPDX-FileCopyrightText: 2025 QueerCats <jansencheng3@gmail.com>
 # SPDX-FileCopyrightText: 2025 Rainbow <ev0lvkitten@gmail.com>
 # SPDX-FileCopyrightText: 2025 ScarKy0 <scarky0@onet.eu>
@@ -196,6 +198,7 @@
 # SPDX-FileCopyrightText: 2025 jhrushbe <capnmerry@gmail.com>
 # SPDX-FileCopyrightText: 2025 marc-pelletier <113944176+marc-pelletier@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 mkanke-real <mikekanke@gmail.com>
+# SPDX-FileCopyrightText: 2025 nikitosych <174215049+nikitosych@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 rottenheadphones <juaelwe@outlook.com>
 # SPDX-FileCopyrightText: 2025 salpphie <53307242+salpphie@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 salpphie <alyssa.thomas51@gmail.com>
@@ -1198,17 +1201,18 @@
     - MagazineBoxPistolLarge # Funkystation
     - MagazinePistolLargePractice # Funkystation
     - MagazineBoxPistolLargePractice # Funkystation
-    - VisMPSPistol
-    - VisMPSPistolMagazineEmpty
-    - VisMPSPistolMagazine
-    - VisMPSPistolMagazineIncendiary
-    - VisMPSPistolMagazineUranium
-    - VisMPSPistolMagazinePractice
-    - PMMMachineGunMagazineEmpty
-    - PMMMachineGunMagazine
-    - PMMMachineGunMagazineIncendiary
-    - PMMMachineGunMagazineUranium
-    - PMMMachineGunMagazinePractice
+    - VisMPSPistol # Polonium
+    - VisMPSPistolMagazineEmpty # Polonium
+    - VisMPSPistolMagazine # Polonium
+    - VisMPSPistolMagazineIncendiary # Polonium
+    - VisMPSPistolMagazineUranium # Polonium
+    - VisMPSPistolMagazinePractice # Polonium
+    - PMMMachineGunMagazineEmpty # Polonium
+    - PMMMachineGunMagazine # Polonium
+    - PMMMachineGunMagazineIncendiary # Polonium
+    - PMMMachineGunMagazineUranium # Polonium
+    - PMMMachineGunMagazinePractice # Polonium
+    - WeaponSubMachineGunGlauberyt # Polonium
     - RiotShield
     - SpeedLoaderMagnum
     - SpeedLoaderMagnumEmpty
@@ -1369,18 +1373,18 @@
     - MagazineShotgunSlug
     - SpeedLoaderMagnum
     - SpeedLoaderMagnumEmpty
-    - VisMPSPistolMagazineEmpty
-    - VisMPSPistolMagazine
-    - VisMPSPistolMagazineIncendiary
-    - VisMPSPistolMagazineUranium
-    - VisMPSPistolMagazinePractice
-    - PMMMachineGunMagazineEmpty
-    - PMMMachineGunMagazine
-    - PMMMachineGunMagazineIncendiary
-    - PMMMachineGunMagazineUranium
-    - PMMMachineGunMagazinePractice
-    - BorSniperMagazineEmpty
-    - BorSniperMagazine
+    - VisMPSPistolMagazineEmpty # Polonium
+    - VisMPSPistolMagazine # Polonium
+    - VisMPSPistolMagazineIncendiary # Polonium
+    - VisMPSPistolMagazineUranium # Polonium
+    - VisMPSPistolMagazinePractice # Polonium
+    - PMMMachineGunMagazineEmpty # Polonium
+    - PMMMachineGunMagazine # Polonium
+    - PMMMachineGunMagazineIncendiary # Polonium
+    - PMMMachineGunMagazineUranium # Polonium
+    - PMMMachineGunMagazinePractice # Polonium
+    - BorSniperMagazineEmpty # Polonium
+    - BorSniperMagazine # Polonium
   - type: EmagLatheRecipes # Goobstation
     emagStaticRecipes:
     - MagazinePistolCaselessRifle # Goobstation
