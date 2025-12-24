@@ -1,19 +1,4 @@
 ﻿Entries:
-- author: SpaceRox1244
-  changes:
-  - message: Station lights can now be destroyed by bullets.
-    type: Add
-  id: 7783
-  time: '2025-01-05T22:11:01.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34070
-- author: ArtisticRoomba
-  changes:
-  - message: You can no longer get stuck when trying to walk between a station anchor
-      and a wall.
-    type: Fix
-  id: 7784
-  time: '2025-01-06T12:32:42.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34217
 - author: ArtisticRoomba
   changes:
   - message: Kessler Syndrome and Zombeteors are removed from the possible gamemodes
@@ -3963,3 +3948,18 @@
   id: 9090
   time: '2025-12-24T16:13:19.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/363
+- author: Lukasz825700516
+  changes:
+  - message: "t\u0142umaczenie dzia\u0142u logistyki"
+    type: Add
+  id: 9091
+  time: '2025-12-24T22:39:02.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/130
+- author: Lukasz825700516
+  changes:
+  - message: "t\u0142umaczenie wiadomo\u015Bci od ra\u017Cenia pr\u0105dem, zdejmowania\
+      \ side\u0142, wiadomo\u015Bci wy\u015Bwietlanych dla smoka i karpio wyrw"
+    type: Add
+  id: 9092
+  time: '2025-12-24T22:36:58.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/116
