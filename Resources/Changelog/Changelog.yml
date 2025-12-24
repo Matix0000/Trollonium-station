@@ -1,13 +1,4 @@
 ﻿Entries:
-- author: Errant
-  changes:
-  - message: Lobby chat width is no longer dependent on the server's name.
-    type: Tweak
-  - message: Lobby title of a server can now be different from the Hub listing's name.
-    type: Tweak
-  id: 7782
-  time: '2025-01-05T20:56:02.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33783
 - author: SpaceRox1244
   changes:
   - message: Station lights can now be destroyed by bullets.
@@ -3964,3 +3955,11 @@
   id: 9089
   time: '2025-12-20T14:26:19.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/351
+- author: Nikitapl
+  changes:
+  - message: "Zaktualizowano t\u0142umaczenie nazwy poziomu dost\u0119pu dla uprawnie\u0144\
+      \ dotycz\u0105cych logistyki/zatwierdzania \u0142adunk\xF3w."
+    type: Tweak
+  id: 9090
+  time: '2025-12-24T16:13:19.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/363
