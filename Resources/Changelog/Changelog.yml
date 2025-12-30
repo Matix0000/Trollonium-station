@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: deltanedas
-  changes:
-  - message: Fixed AIs not being able to use lockable buttons.
-    type: Fix
-  id: 7789
-  time: '2025-01-09T11:23:37.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34326
 - author: Alpaccalypse
   changes:
   - message: The reagent "cola" has been renamed to "Space Cola".
@@ -3969,3 +3962,10 @@
   id: 9096
   time: '2025-12-26T17:38:10.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/362
+- author: Zintex
+  changes:
+  - message: "Przet\u0142umaczono Prawo Kosmiczne"
+    type: Add
+  id: 9097
+  time: '2025-12-30T02:37:32.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/366
