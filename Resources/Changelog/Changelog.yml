@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: themias
-  changes:
-  - message: Fixed crayons losing durability attempting to write on stamped paper
-    type: Fix
-  id: 7795
-  time: '2025-01-10T15:37:11.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34202
 - author: Tayrtahn
   changes:
   - message: Arcades, vending machines and the recycler now sometimes say creepy things
@@ -4022,3 +4015,12 @@
   id: 9102
   time: '2026-01-09T05:22:26.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/375
+- author: Zintex
+  changes:
+  - message: "Dodano rol\u0119 Medyk wi\u0119zienny (Brigmedic)"
+    type: Add
+  - message: 'Brigmedic dodany do map: Cluster, Packed, Roid, Saltern'
+    type: Add
+  id: 9103
+  time: '2026-01-09T19:37:54.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/371
