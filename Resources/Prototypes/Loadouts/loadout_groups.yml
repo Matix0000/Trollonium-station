@@ -82,7 +82,10 @@
 # SPDX-FileCopyrightText: 2025 tea <xerithin@gmail.com>
 # SPDX-FileCopyrightText: 2025 vectorassembly <vectorassembly@icloud.com>
 # SPDX-FileCopyrightText: 2025 w.xyz() <84605679+pirakaplant@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Damian Zieliński <zientasek.pl@gmail.com>
 # SPDX-FileCopyrightText: 2026 MaiaArai <158123176+YaraaraY@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Nikita (Nick) <174215049+nikitosych@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Polonium-bot <admin@ss14.pl>
 # SPDX-FileCopyrightText: 2026 Zergologist <114537969+Chedd-Error@users.noreply.github.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
@@ -99,6 +102,7 @@
   - Headphones
   - PlushieLizard
   - PlushieSpaceLizard
+  - PlushieItanKio
   - PlushieCirno
   - Lighter
   - CigPackGreen
@@ -1107,7 +1111,7 @@
   - CargoWinterBoots
   - WorkBoots
   - EngineeringWinterBoots
-  
+
 - type: loadoutGroup #WizDen Weh Job Plush
   id: CargoTechnicianJobTrinkets
   name: loadout-group-jobtrinkets
