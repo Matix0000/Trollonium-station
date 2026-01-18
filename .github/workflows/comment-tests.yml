@@ -1,8 +1,8 @@
 name: Warn about CI failures
 
 on:
-  pull_request:
-    types: [opened, ready_for_review, synchronize, reopened]
+  pull_request_target:
+    types: [ opened, ready_for_review ]
 
 jobs:
   comment:
