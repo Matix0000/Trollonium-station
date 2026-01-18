@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: kosticia
-  changes:
-  - message: Bedsheets now can be printed on uniform printer
-    type: Add
-  id: 7813
-  time: '2025-01-15T19:35:59.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34034
 - author: TheShuEd
   changes:
   - message: Christmas anomaly removed
@@ -4044,3 +4037,14 @@
   id: 9120
   time: '2026-01-17T18:49:39.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/399
+- author: Nikitapl
+  changes:
+  - message: "Przet\u0142umaczono autodoc"
+    type: Tweak
+  - message: "Przet\u0142umaczono chirurgi\u0119 (shitmed)"
+    type: Tweak
+  - message: "Liczne drobne t\u0142umaczenia zwi\u0105zane z medycyn\u0105"
+    type: Tweak
+  id: 9121
+  time: '2026-01-18T19:57:11.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/400
