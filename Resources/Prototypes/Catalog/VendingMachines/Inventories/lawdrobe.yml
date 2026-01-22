@@ -13,6 +13,8 @@
 # SPDX-FileCopyrightText: 2025 corresp0nd <46357632+corresp0nd@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2026 Damian Zieliński <zientasek.pl@gmail.com>
+# SPDX-FileCopyrightText: 2026 Polonium-bot <admin@ss14.pl>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
@@ -38,6 +40,10 @@
     BookSpaceLaw: 3
     LuxuryPen: 2
     HandLabeler: 2
+    ClothingNeckTieRed: 1 # Polonium
+    ClothingNeckTieGreen: 1 # Polonium
+    ClothingNeckTieGray: 1 # Polonium
+    ClothingNeckScarfStripedBlack: 1 # Polonium
   contrabandInventory:
     ClothingOuterRobesJudge: 1
     ClothingHeadHatPwig: 1

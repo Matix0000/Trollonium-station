@@ -40,6 +40,7 @@
 # SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
 # SPDX-FileCopyrightText: 2025 willowzeta <willowzeta632146@proton.me>
+# SPDX-FileCopyrightText: 2026 Damian Zieliński <zientasek.pl@gmail.com>
 # SPDX-FileCopyrightText: 2026 Nikita (Nick) <174215049+nikitosych@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2026 Polonium-bot <admin@ss14.pl>
 # SPDX-FileCopyrightText: 2026 Zergologist <114537969+Chedd-Error@users.noreply.github.com>
@@ -162,6 +163,13 @@
     ClothingEyesGlassesCheapSunglasses: 3
     ClothingEyesGlassesJamjar: 5
     # DO NOT ADD MORE, USE UNIFORM DYING
+    # Department ties - Polonium
+    ClothingNeckTieRed: 2
+    ClothingNeckTieGray: 2
+    ClothingNeckTieBlue: 2
+    ClothingNeckTieBrown: 2
+    ClothingNeckTieOrange: 2
+    ClothingNeckTieGreen: 2
   contrabandInventory:
     ClothingMaskNeckGaiter: 2
     ClothingUniformJumpsuitTacticool: 2 # +1 Goobstation

@@ -36,6 +36,7 @@
 # SPDX-FileCopyrightText: 2025 Fr0goo <153249069+Fr0goo@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Fr0goo <frogoofrog@outlook.com>
 # SPDX-FileCopyrightText: 2025 MaiaArai <158123176+YaraaraY@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Nikita (Nick) <174215049+nikitosych@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Sofia Gilsanz <softie.gd@gmail.com>
 # SPDX-FileCopyrightText: 2025 Tay <td12233a@gmail.com>
 # SPDX-FileCopyrightText: 2025 ThatOneMoon <91613003+ThatOneMoon@users.noreply.github.com>
@@ -46,6 +47,8 @@
 # SPDX-FileCopyrightText: 2025 salpphie <alyssa.thomas51@gmail.com>
 # SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2026 Damian Zieliński <zientasek.pl@gmail.com>
+# SPDX-FileCopyrightText: 2026 Polonium-bot <admin@ss14.pl>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
@@ -1045,6 +1048,37 @@
   id: ClothingNeckTieSci
   result: ClothingNeckTieSci
 
+# Department ties - Polonium
+- type: latheRecipe
+  parent: BaseNeckClothingRecipe
+  id: ClothingNeckTieGray
+  result: ClothingNeckTieGray
+
+- type: latheRecipe
+  parent: BaseNeckClothingRecipe
+  id: ClothingNeckTieBlue
+  result: ClothingNeckTieBlue
+
+- type: latheRecipe
+  parent: BaseNeckClothingRecipe
+  id: ClothingNeckTieBrown
+  result: ClothingNeckTieBrown
+
+- type: latheRecipe
+  parent: BaseNeckClothingRecipe
+  id: ClothingNeckTieOrange
+  result: ClothingNeckTieOrange
+
+- type: latheRecipe
+  parent: BaseNeckClothingRecipe
+  id: ClothingNeckTieGreen
+  result: ClothingNeckTieGreen
+
+- type: latheRecipe
+  parent: BaseNeckClothingRecipe
+  id: ClothingNeckTieCentcom
+  result: ClothingNeckTieCentcom
+
 # Scarfs
 - type: latheRecipe
   parent: BaseNeckClothingRecipe
@@ -1085,6 +1119,11 @@
   parent: BaseNeckClothingRecipe
   id: ClothingNeckScarfStripedPurple
   result: ClothingNeckScarfStripedPurple
+
+- type: latheRecipe # Polonium
+  parent: BaseNeckClothingRecipe
+  id: ClothingNeckScarfStripedCentcom
+  result: ClothingNeckScarfStripedCentcom
 
 # Funky stuff!
 

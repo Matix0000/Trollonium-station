@@ -5,10 +5,13 @@
 # SPDX-FileCopyrightText: 2023 Flareguy <78941145+Flareguy@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2023 Velcroboy <107660393+IamVelcroboy@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2024 Jackal298 <129199891+Jackal298@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Nikita (Nick) <174215049+nikitosych@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Tay <td12233a@gmail.com>
 # SPDX-FileCopyrightText: 2025 YaraaraY <158123176+YaraaraY@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2026 Damian Zieliński <zientasek.pl@gmail.com>
+# SPDX-FileCopyrightText: 2026 Polonium-bot <admin@ss14.pl>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
@@ -30,5 +33,7 @@
     ClothingShoesColorBlack: 2
     ClothingShoesChef: 2
     ClothingBeltChef: 2
+    ClothingNeckScarfStripedGreen: 2 # Polonium
+    ClothingNeckTieGreen: 2 # Polonium
   contrabandInventory:
     ToyFigurineChef: 1
