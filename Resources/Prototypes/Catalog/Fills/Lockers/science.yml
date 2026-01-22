@@ -7,6 +7,8 @@
 # SPDX-FileCopyrightText: 2024 KingFroozy <froozy345@mail.ru>
 # SPDX-FileCopyrightText: 2024 Tadeo <td12233a@gmail.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2026 Damian Zieliński <zientasek.pl@gmail.com>
+# SPDX-FileCopyrightText: 2026 Polonium-bot <admin@ss14.pl>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
@@ -39,3 +41,25 @@
       - id: ClothingOuterCoatRobo
       - id: ClothingHeadHatWelding
       - id: ClothingBeltUtilityFilled
+
+- type: entity # Polonium
+  id: LockerScienceRoboticsFilled
+  suffix: Filled
+  parent: LockerScientist
+  components:
+  - type: StorageFill
+    contents:
+    - id: ClothingHandsGlovesLatex
+    - id: ClothingHeadsetScience
+    - id: ClothingMaskSterile
+    - id: ClothingOuterCoatRnd
+    - id: AnomalyScanner
+    - id: NodeScanner
+    - id: NetworkConfigurator
+      prob: 0.5
+    - id: ClothingHandsGlovesRobohands
+    - id: ClothingHeadsetRobotics
+    - id: ClothingMaskGas
+    - id: ClothingOuterCoatRobo
+    - id: ClothingHeadHatWelding
+    - id: ClothingBeltUtilityFilled
