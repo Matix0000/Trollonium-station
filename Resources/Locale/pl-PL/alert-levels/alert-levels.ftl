@@ -1,4 +1,4 @@
-alert-level-announcement = Uwaga! Poziom bezpieczeństwa stacji został zmieniony na { $name }! { $announcement }
+alert-level-announcement = Uwaga! Kod zagrożenia na stacji został zmieniony na { $name }! { $announcement }
 alert-level-unknown = Nieznany.
 alert-level-unknown-instructions = Nieznane.
 alert-level-green = Zielony
@@ -27,16 +27,16 @@ alert-level-yellow-announcement =
     Członkom załogi zaleca się unikać zagrożonych stref lub pozostać przy swoich stanowiskach, jeśli będzie to konieczne.
 alert-level-yellow-instructions = Członkom załogi zaleca się unikać zagrożonych stref lub pozostać przy swoich stanowiskach, jeśli będzie to konieczne.
 alert-level-gamma = Gamma
-alert-level-gamma-announcement = Centralne Dowództwo zarządziło poziom bezpieczeństwa Gamma na stacji. Ochrona ma być uzbrojona przez cały czas. Wszyscy cywile powinni natychmiast udać się do najbliższego przełożonego w celu przetransportowania się do bezpiecznej lokalizacji.
-alert-level-gamma-instructions = Wszyscy cywile powinni natychmiast udać się do najbliższego przełożonego w celu przetransportowania się do bezpiecznej lokalizacji.
+alert-level-gamma-announcement = Centralne Dowództwo zarządziło Kod Gamma na stacji. Ochrona ma być uzbrojona przez cały czas. Wszyscy cywile powinni natychmiast udać się do najbliższego przełożonego w celu udania się do bezpiecznej lokalizacji.
+alert-level-gamma-instructions = Wszyscy cywile powinni natychmiast udać się do najbliższego przełożonego w celu udania się do bezpiecznej lokalizacji.
 alert-level-delta = Delta
 alert-level-delta-announcement = Stacji grozi obecnie bezpośrednie unicestwienie. Załodze zaleca się śłuchania poleceń dowództwa w celu uzyskania informacji.
 alert-level-delta-instructions = Załodze zaleca się śłuchania poleceń dowództwa w celu uzyskania informacji.
 alert-level-epsilon = Epsilon
 alert-level-epsilon-announcement =
-    Centralne Dowództwo ogłosiło poziom Epsilon.
+    Centralne Dowództwo ogłosiło kod Epsilon.
     Wszystkie kontrakty zostały zerwane.
-alert-level-epsilon-instructions = Wszystkie kontrakty zostały zerwane.
-alert-level-cyan = Cyan
-alert-level-cyan-announcement = All silicons should be avoided and treated as hostile.
-alert-level-cyan-instructions = Report any silicon activity to Security immediately.
+alert-level-epsilon-instructions = [BŁĄD WEWNĘTRZNY]
+alert-level-cyan = Cyanowy
+alert-level-cyan-announcement = Wszystkich cyborgów należy unikać i traktować jako wrogich.
+alert-level-cyan-instructions = Wszelkie działania cyborgów należy niezwłocznie zgłaszać służbom bezpieczeństwa.
