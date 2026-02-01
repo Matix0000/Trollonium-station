@@ -526,11 +526,17 @@
     - InflatableDoor #funk
     - SmallPinboard #funky
     - BarberScissors #funk
+    - HydroponicsToolMiniHoe  #Mira Sector (Convert all of the static recipes to static packs please ;_;)
+    - HydroponicsToolScythe   #Mira Sector
+    - HydroponicsToolHatchet  #Mira Sector
+    - HydroponicsToolSpade    #Mira Sector
+    - HydroponicsToolClippers #Mira Sector
+    - PlantAnalyzer           #Mira Sector
     dynamicRecipes:
     - BoomboxRed
     - BoomboxGreen
     - BoomboxBlue
-
+    
   - type: EmagLatheRecipes
     emagStaticRecipes:
     - BoxLethalshot
@@ -730,6 +736,7 @@
     - SadTromboneImplanter
     - LightImplanter
     - BikeHornImplanter
+    - PlantScanCartridge # Mira Sector - Plants Analyzer Cartridge
   - type: EmagLatheRecipes
     emagDynamicRecipes:
     - BoxBeanbag

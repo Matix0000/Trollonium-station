@@ -14,52 +14,28 @@
 // SPDX-FileCopyrightText: 2024 Rainfey <rainfey0+github@gmail.com>
 // SPDX-FileCopyrightText: 2024 Tadeo <td12233a@gmail.com>
 // SPDX-FileCopyrightText: 2024 deltanedas <39013340+deltanedas@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2025 Mehnix <56132549+Mehnix@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2025 Minerva <218184747+mnva0@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 Tay <td12233a@gmail.com>
 // SPDX-FileCopyrightText: 2025 mnva <218184747+mnva0@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 pa.pecherskij <pa.pecherskij@interfax.ru>
 // SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+// SPDX-FileCopyrightText: 2026 Polonium-bot <admin@ss14.pl>
 //
 // SPDX-License-Identifier: MIT
 
 using Robust.Shared.Audio;
+using Content.Server.BaseAnalyzer;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
 
 namespace Content.Server.Medical.Components;
 
-/// <summary>
-/// After scanning, retrieves the target Uid to use with its related UI.
-/// </summary>
-/// <remarks>
-/// Requires <c>ItemToggleComponent</c>.
-/// </remarks>
+/// <inheritdoc/>
 [RegisterComponent, AutoGenerateComponentPause]
-[Access(typeof(HealthAnalyzerSystem), typeof(CryoPodSystem), typeof(BodyScannerSystem))] // Funky: useful body scanners
-public sealed partial class HealthAnalyzerComponent : Component
+
+[Access(typeof(HealthAnalyzerSystem), typeof(CryoPodSystem))]
+public sealed partial class HealthAnalyzerComponent : BaseAnalyzerComponent
 {
-    /// <summary>
-    /// When should the next update be sent for the patient
-    /// </summary>
-    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer))]
-    [AutoPausedField]
-    public TimeSpan NextUpdate = TimeSpan.Zero;
-
-    /// <summary>
-    /// The delay between patient health updates
-    /// </summary>
-    [DataField]
-    public TimeSpan UpdateInterval = TimeSpan.FromSeconds(1);
-
-    /// <summary>
-    /// How long it takes to scan someone.
-    /// </summary>
-    [DataField]
-    public TimeSpan ScanDelay = TimeSpan.FromSeconds(0.8);
-
-    /// <summary>
-    /// Which entity has been scanned, for continuous updates
-    /// </summary>
-    [DataField]
-    public EntityUid? ScannedEntity;
 
     /// <summary>
     /// Shitmed Change: The body part that is currently being scanned.
@@ -70,24 +46,6 @@ public sealed partial class HealthAnalyzerComponent : Component
     /// <summary>
     /// The maximum range in tiles at which the analyzer can receive continuous updates, a value of null will be infinite range
     /// </summary>
-    [DataField]
-    public float? MaxScanRange = 2.5f;
 
-    /// <summary>
-    /// Sound played on scanning begin
-    /// </summary>
-    [DataField]
-    public SoundSpecifier? ScanningBeginSound;
-
-    /// <summary>
-    /// Sound played on scanning end
-    /// </summary>
-    [DataField]
-    public SoundSpecifier ScanningEndSound = new SoundPathSpecifier("/Audio/Items/Medical/healthscanner.ogg");
-
-    /// <summary>
-    /// Whether to show up the popup
-    /// </summary>
-    [DataField]
-    public bool Silent;
+    public override TimeSpan NextUpdate { get; set; } = TimeSpan.Zero;
 }
