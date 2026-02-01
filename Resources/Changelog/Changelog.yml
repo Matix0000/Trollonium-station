@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: WarPigeon
-  changes:
-  - message: The debriefing room in CentComm is now open to heads of staff for end
-      of round roleplay.
-    type: Tweak
-  id: 7830
-  time: '2025-01-19T05:32:34.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34475
 - author: Winkarst-cpu
   changes:
   - message: Now items from the storage implant drop on the floor upon gibbing of
@@ -4074,3 +4066,12 @@
   id: 9137
   time: '2026-01-30T13:27:38.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/421
+- author: Wudanty
+  changes:
+  - message: "Dodano nowy, innowacyjny analizator ro\u015Blin!"
+    type: Add
+  - message: "Usuni\u0119to stary analizator ro\u015Blin z New Forntier"
+    type: Remove
+  id: 9138
+  time: '2026-02-01T00:10:15.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/428
