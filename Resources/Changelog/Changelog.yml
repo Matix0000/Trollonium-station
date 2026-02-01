@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: Winkarst-cpu
-  changes:
-  - message: Now items from the storage implant drop on the floor upon gibbing of
-      the owner.
-    type: Tweak
-  id: 7831
-  time: '2025-01-19T19:48:58.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33493
 - author: ArtisticRoomba
   changes:
   - message: Voxes can now honk, weh, and hew if forced to by a reagent.
@@ -4075,3 +4067,12 @@
   id: 9138
   time: '2026-02-01T00:10:15.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/428
+- author: Nikita_pl
+  changes:
+  - message: "Dodano pude\u0142ka ewakuacyjne bojownikom JSR"
+    type: Add
+  - message: "Naprawiono rosyjskoj\u0119zyczne nazwy przedmiot\xF3w na statkach JSR"
+    type: Fix
+  id: 9139
+  time: '2026-02-01T10:49:43.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/439
