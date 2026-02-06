@@ -5,7 +5,7 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
-reagent-physical-desc-vaporous = vaporous
-reagent-physical-desc-burnt = burnt
-reagent-physical-desc-profane = profane
-reagent-physical-desc-minty = minty
+reagent-physical-desc-vaporous = parujący
+reagent-physical-desc-burnt = przypalony
+reagent-physical-desc-profane = bluźnierczy
+reagent-physical-desc-minty = miętowy

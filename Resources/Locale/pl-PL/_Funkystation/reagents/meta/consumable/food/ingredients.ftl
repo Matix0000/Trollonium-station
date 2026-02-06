@@ -3,5 +3,5 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
-reagent-name-liquidpie = liquid pie
-reagent-desc-liquidpie = Pulped banana cream pie.
+reagent-name-liquidpie = płynne ciasto
+reagent-desc-liquidpie = Zmielone ciasto bananowe

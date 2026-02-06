@@ -3,5 +3,5 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
-reagent-name-catextract = catberry extract
-reagent-desc-catextract = An unusual liquid extracted from a catberry.
+reagent-name-catextract = ekstrakt z catberry
+reagent-desc-catextract = Niezwykła ciecz pozyskana z owocu catberry.
